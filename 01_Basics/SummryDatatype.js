@@ -53,3 +53,34 @@ object = object
 functon = function
 
 */
+
+
+
+// **********************************************************
+
+//  MEMORY APACES
+
+// Java Script is a dynamically typed language as well as it follow auto memory managment there are two types of memory spaces :-
+
+// 1 Stack :- Primitive data types are build in Stack (call by value)
+// 2 Heap :- Non primitive data types (array , object, functon) are created in heap (call by reference)
+
+let user1Name = "bhavna"
+let user2Name = user1Name // only share copy
+user2Name = "Bhaviii"
+
+console.log(user1Name) 
+console.log(user2Name)  // independent to user 1  
+
+
+let student1 = {
+    name : "Bhavna" ,
+    rollNO : 123
+}
+
+let student2 = student1 // share reference so both are same effect each other
+
+student2.name = "Sakshi"
+
+console.log(student1.name)
+console.log(student2.name)
