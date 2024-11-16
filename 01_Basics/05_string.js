@@ -16,8 +16,28 @@ console.log(typeof user2) // Object
 
 const name = new String("Bhavna Patil")
 
+
+
 // 1. at 
 
-console.log(name.at(5)) // a
-console.log(name.at(15)) // undefined
-console.log(name.at(-15)) // v
+// console.log(name.at(5)) // a
+// console.log(name.at(15)) // undefined
+// console.log(name.at(-10)) // undefined
+
+// 2.big() //gives big html elemnt
+
+// 3. charAt()
+
+console.log(name.charAt(5))
+console.log(name.charAt(15)) // space or null
+console.log(name.charAt(-10)) // space or null
+
+// 4. concat()
+// 5. replace()
+// 6. indexOf()
+// 7. trim()
+// 8. slice()
+// 9. toUpperCase()
+// 10. toLowercase()
+// 12. repeat()
+
