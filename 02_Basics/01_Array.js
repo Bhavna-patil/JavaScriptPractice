@@ -22,10 +22,22 @@ console.log( Arr == arr2) // false
 // 5. includes() => 
 // 6. indexOf() => return index at element persent else return -1
 // 7. concat() => merge two array and return it
+
+ const user = ["bhavna" , "ankita" , "sneha"]
+ const guest = ["vaish" , "nikki" ]
+
+ const allMember = user.concat(guest) // return new array with combine element of both
+
+ // Another Way : -
+
+ const allMemberUingSpred = [...user, ...guest]
+
 // 8. reverse()
 // 9. slice() => return part of array
 // 10. splice()
 // 11. sort() => sort the value after converting it in string not provide valid result
  
 // arr2.unshift(6)
+
 console.log(arr2.includes("bhavii"))
+
